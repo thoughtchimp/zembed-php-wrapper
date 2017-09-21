@@ -1,0 +1,27 @@
+{
+  "name": "thoughtchimp/zembed-php-wrapper",
+  "description": "Zembed api php wrapper",
+  "keywords": ["zembed","api","php","wrapper"],
+  "homepage": "https://github.com/thoughtchimp/zembed-php-wrapper",
+  "authors": [
+    {
+      "name": "Thought Chimp",
+      "homepage": "https://thoughtchimp.com"
+    }
+  ],
+  "license" : "MIT",
+  "require": {
+    "php": ">=5.5",
+    "guzzlehttp/guzzle": "~6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zembed\\": "src/Zembed"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
