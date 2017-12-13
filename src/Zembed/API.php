@@ -57,7 +57,7 @@ class API extends Client
         try {
             $request = $this->request($method, $url, array_merge([
                 'curl'  => $this->curlOptions, 'headers' => [
-                    'api-key'      => $this->api_key,
+                    'Authorization' => $this->api_key,
                 ]
             ], $options));
 
